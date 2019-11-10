@@ -8,6 +8,7 @@ Debian镜像替换为以下源：
 - TUNA：<https://mirror.tuna.tsinghua.edu.cn/help/debian/>
 - aliyun: <https://opsx.alibaba.com/mirror>
 - huawei: <https://mirrors.huaweicloud.com/>
+- 163: <https://mirrors.163.com/>
 
 ## 参考
 

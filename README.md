@@ -6,6 +6,7 @@ Debian镜像替换为以下源：
 
 - USTC：<https://mirrors.ustc.edu.cn/repogen/>
 - TUNA：<https://mirror.tuna.tsinghua.edu.cn/help/debian/>
+- aliyun: <https://opsx.alibaba.com/mirror>
 
 ## 参考
 

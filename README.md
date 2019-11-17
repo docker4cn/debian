@@ -5,7 +5,7 @@
 [![Docker Stars](https://img.shields.io/docker/stars/docker4cn/debian.svg)](https://hub.docker.com/r/docker4cn/debian/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/docker4cn/debian.svg)](https://hub.docker.com/r/docker4cn/debian/)
 
-这是为中国定制的Debian镜像。
+这是为中国定制的Debian镜像，上游是Docker官方的[debian](https://hub.docker.com/_/debian)。
 
 ## 定制
 
@@ -30,9 +30,14 @@ Debian镜像替换为以下源：
 docker pull docker4cn/debian:buster-ustc
 ```
 
-默认`lastest`使用`ustc`，因为它是Debian官方镜像域名的`ftp.cn.debian.org`。
+默认`lastest`使用`ustc`，因为它是Debian官方镜像域名的`ftp.cn.debian.org`，目前的`latest`是`buster-ustc`。
 但它不一定是最合适的源。
 通过`ping <域名>`，找到最近的源，往往会有更好的使用效果。
+
+已支持版本：
+
+- buster
+- stretch
 
 ## 其它
 
@@ -40,4 +45,4 @@ docker pull docker4cn/debian:buster-ustc
 
 如果希望更新、改进，请提[issues]或PR。
 
-[issues]:https://github.com/yanqd0/docker-hugo/issues/new
+[issues]:https://github.com/docker4cn/docker-debian/issues/new

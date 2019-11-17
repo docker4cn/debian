@@ -1,0 +1,14 @@
+# vim: set filetype=debsources:
+# This is equivalent to http://ftp2.cn.debian.org/debian
+
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
+#
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+#
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+#
+deb https://mirrors.tuna.tsinghua.edu.cn/debian-security stretch/updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security stretch/updates main contrib non-free

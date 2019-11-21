@@ -45,4 +45,4 @@ docker pull docker4cn/debian:buster-ustc
 
 如果希望更新、改进，请提[issues]或PR。
 
-[issues]:https://github.com/docker4cn/docker-debian/issues/new
+[issues]:https://github.com/docker4cn/debian/issues/new

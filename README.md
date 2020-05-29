@@ -21,8 +21,8 @@ Debian镜像替换为以下源：
 
 除了换源，还做了以下改进：
 
-- 预装`ca-certificates`证书包
-- 设置时区为中国的`+8`区（`Asia/Shanghai`）
+- 预装`ca-certificates`证书包，使用`https`的方式下载软件包。
+- 设置时区为中国的`+8`区（`Asia/Shanghai`）。
 
 ## 使用示例
 

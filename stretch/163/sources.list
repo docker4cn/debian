@@ -1,9 +1,0 @@
-# vim: set filetype=debsources:
-deb https://mirrors.163.com/debian/ stretch main contrib non-free
-# deb-src https://mirrors.163.com/debian/ stretch main contrib non-free
-
-deb https://mirrors.163.com/debian/ stretch-updates main contrib non-free
-# deb-src https://mirrors.163.com/debian/ stretch-updates main contrib non-free
-
-deb https://mirrors.163.com/debian-security/ stretch/updates main contrib non-free
-# deb-src https://mirrors.163.com/debian-security/ stretch/updates main contrib non-free

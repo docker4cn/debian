@@ -6,6 +6,5 @@ RUN apt-get update \
         apt-transport-https \
         ca-certificates \
         tzdata \
+    && sed -i "s@http://.*.debian.org@https://mirrors.163.com@g" /etc/apt/sources.list \
     && rm -rf /var/apt/cache/*
-
-COPY ./sources.list /etc/apt/sources.list

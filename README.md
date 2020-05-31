@@ -4,9 +4,10 @@
 [![Docker Build Status](https://img.shields.io/docker/cloud/build/docker4cn/debian.svg)](https://hub.docker.com/r/docker4cn/debian/builds/)
 [![Docker Stars](https://img.shields.io/docker/stars/docker4cn/debian.svg)](https://hub.docker.com/r/docker4cn/debian/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/docker4cn/debian.svg)](https://hub.docker.com/r/docker4cn/debian/)
-[![License](https://img.shields.io/github/license/docker4cn/debian.svg)](https://github.com/yanqd0/docker4cn/debian/master/LICENSE)
+[![License](https://img.shields.io/github/license/docker4cn/debian.svg)](https://github.com/docker4cn/debian/blob/master/LICENSE)
 
 这是为中国定制的Debian镜像，上游是Docker官方的[debian](https://hub.docker.com/_/debian)。
+它是[docker4cn]项目的一部分。
 
 ## 定制
 

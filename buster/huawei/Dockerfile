@@ -8,3 +8,5 @@ RUN apt-get update \
         tzdata \
     && sed -i "s@http://.*.debian.org@https://mirrors.huaweicloud.com@g" /etc/apt/sources.list \
     && rm -rf /var/apt/cache/*
+
+COPY ./context/huawei /root/

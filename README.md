@@ -17,7 +17,7 @@ Debian镜像替换为以下源：
 | ----     | --       | ----                           | --------                                           |
 | 中科大   | `ustc`   | `mirrors.ustc.edu.cn`          | <https://mirrors.ustc.edu.cn/repogen/>             |
 | 清华     | `tuna`   | `mirrors.tuna.tsinghua.edu.cn` | <https://mirror.tuna.tsinghua.edu.cn/help/debian/> |
-| 阿里巴巴 | `aliyun` | `mirrors.aliyun.com`           | <https://opsx.alibaba.com/mirror>                  |
+| 阿里巴巴 | `aliyun` | `mirrors.aliyun.com`           | <https://developer.aliyun.com/mirror/>             |
 | 华为     | `huawei` | `mirrors.huaweicloud.com`      | <https://mirrors.huaweicloud.com/>                 |
 | 网易     | `163`    | `mirrors.163.com`              | <https://mirrors.163.com/>                         |
 
@@ -37,14 +37,34 @@ docker pull docker4cn/debian:buster-aliyun
 但它通常不是最合适的源，推荐通过tag选择特定镜像。
 通过`ping <域名>`，找到最近的源，往往会有更好的使用效果。
 
-已支持版本：
+维护中的tag：
 
-- buster
-- stretch
+- [latest], [buster-ustc]
+- [buster-tuna]
+- [buster-aliyun]
+- [buster-huawei]
+- [buster-163]
+- [stretch-ustc]
+- [stretch-tuna]
+- [stretch-aliyun]
+- [stretch-huawei]
+- [stretch-163]
+
+[latest]:https://github.com/docker4cn/debian/blob/master/buster/ustc/Dockerfile
+[buster-ustc]:https://github.com/docker4cn/debian/blob/master/buster/ustc/Dockerfile
+[buster-tuna]:https://github.com/docker4cn/debian/blob/master/buster/tuna/Dockerfile
+[buster-aliyun]:https://github.com/docker4cn/debian/blob/master/buster/aliyun/Dockerfile
+[buster-huawei]:https://github.com/docker4cn/debian/blob/master/buster/huawei/Dockerfile
+[buster-163]:https://github.com/docker4cn/debian/blob/master/buster/163/Dockerfile
+[stretch-ustc]:https://github.com/docker4cn/debian/blob/master/stretch/ustc/Dockerfile
+[stretch-tuna]:https://github.com/docker4cn/debian/blob/master/stretch/tuna/Dockerfile
+[stretch-aliyun]:https://github.com/docker4cn/debian/blob/master/stretch/aliyun/Dockerfile
+[stretch-huawei]:https://github.com/docker4cn/debian/blob/master/stretch/huawei/Dockerfile
+[stretch-163]:https://github.com/docker4cn/debian/blob/master/stretch/163/Dockerfile
 
 ## 其它
 
-更多docker4cn定制Docker基础镜像，请访问：<https://docker-4.cn/debian/>
+更多docker4cn定制Docker基础镜像，请访问：<https://docker-4.cn/>
 
 更多Debian镜像，参考：[Debian 全球镜像站](https://www.debian.org/mirror/list.zh-cn.html)。
 
